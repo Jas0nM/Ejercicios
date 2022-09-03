@@ -19,19 +19,14 @@ int app::Loop (void)
 {
 	agk::Sync();
 
-	/*
-	Crear un programa donde se ingrese un numero e imprima el mensaje de “Es mayor de edad” si el numero ingresado es mayor a 18
-	*/
+	/*Crear un programa donde se ingrese un numero e imprima el mensaje de â€œEs mayor de edadâ€ si el numero ingresado es mayor a 18*/
 	ejercicio1(22);
+	/*AÃ±adirle un else al programa anterior, para que imprima el mensaje â€œNo es mayor de 18â€ */
 	ejercicio1(11);
+	/*AÃ±adirle otra condiciÃ³n al programa anterior, donde la condiciÃ³n sea que si el numero ingresado es mayor a 70 imprima el mensaje â€œYa eres algo viejoâ€*/
 	ejercicio1(78);
+	/*Anadir una ultima condiciÃ³n donde la condiciÃ³n sea que si el numero ingresado es igual a 17 imprima el mensaje â€œTe falta poco para ser mayorâ€*/
 	ejercicio1(1);
-	
-	/*Añadirle un else al programa anterior, para que imprima el mensaje “No es mayor de 18”
-	Añadirle otra condición al programa anterior, donde la condición sea que si el numero ingresado es mayor a 70 imprima el mensaje “Ya eres algo viejo”
-	Anadir una ultima condición donde la condición sea que si el numero ingresado es igual a 17 imprima el mensaje “Te falta poco para ser mayor”
-	*/
-
 
 	return 0; // return 1 to close app
 }
